@@ -3,8 +3,8 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 @import url("https://fonts.googleapis.com/css?family=Hammersmith+One");
-@import url("https://fonts.googleapis.com/css?family=Playfair+Display");
-@import url("https://fonts.googleapis.com/css?family=Roboto:100,400,900");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display|Roboto:300,900");
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,900");
 /* line 5, C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -88,21 +88,37 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* line 17, ../sass/_app-header.scss */
 .header:before {
   position: absolute;
+  content: "123123123";
   background-image: linear-gradient(to right, #09052f 0%, #311d5e 100%);
   width: 100%;
   min-height: 100vh;
   opacity: 0.85;
 }
-/* line 25, ../sass/_app-header.scss */
+/* line 26, ../sass/_app-header.scss */
 .header nav {
   flex-basis: 60%;
 }
 /* line 29, ../sass/_app-header.scss */
+.header nav a {
+  text-decoration: none;
+  height: 9px;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.33px;
+}
+/* line 39, ../sass/_app-header.scss */
+.header nav a:hover {
+  color: #00e0d0;
+}
+/* line 45, ../sass/_app-header.scss */
 .header header {
   margin-bottom: 135px;
 }
 
-/* line 34, ../sass/_app-header.scss */
+/* line 50, ../sass/_app-header.scss */
 .header-logo {
   color: #00e0d0;
   font-family: "Roboto", sans-serif;
@@ -111,7 +127,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   padding-left: 55px;
   text-decoration: none;
 }
-/* line 42, ../sass/_app-header.scss */
+/* line 58, ../sass/_app-header.scss */
 .header-logo:before {
   content: url("../images/logo.png");
   position: absolute;
@@ -155,7 +171,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   color: #ffffff;
   font-family: "Playfair Display", sans-serif;
   font-size: 32px;
-  font-weight: 400;
+  font-weight: 900;
   letter-spacing: 0.32px;
   padding-bottom: 20px;
   margin-bottom: 30px;
@@ -181,4 +197,27 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-weight: 300;
   line-height: 24px;
   letter-spacing: 0.7px;
+}
+
+/* line 3, ../sass/_app-button.scss */
+.button-link {
+  text-decoration: none;
+}
+
+/* line 7, ../sass/_app-button.scss */
+.button {
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  border: 1px solid #00e0d0;
+  margin: 50px auto 0;
+}
+/* line 14, ../sass/_app-button.scss */
+.button p {
+  color: #00e0d0;
+  font-family: "Hammersmith One", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
 }

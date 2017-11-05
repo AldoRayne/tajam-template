@@ -5,8 +5,8 @@
 
 //import fonts
 @import url('https://fonts.googleapis.com/css?family=Hammersmith+One');
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,400,900');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Roboto:300,900');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,900');
 
 //import compass/reset
 @import "compass/reset";
@@ -17,4 +17,5 @@
 @import "app-flexbox";
 @import "app-image";
 @import "app-section-title";
+@import "app-button";
 
