@@ -6,6 +6,15 @@
   overflow: hidden;
   position: relative;
 
+  &:before {
+    position: absolute;
+    content: "";
+    background-image: linear-gradient(to right, #09052f 0%, #311d5e 100%);
+    width: $main-width;
+    min-height: $main-height;
+    opacity: 0.85;
+  }
+
   h1 {
     flex-basis: $small-basis;
     box-sizing: border-box;
@@ -14,23 +23,14 @@
     position: relative;
   }
 
-    &:before {
-      position: absolute;
-      content: "123123123";
-      background-image: linear-gradient(to right, #09052f 0%, #311d5e 100%);
-      width: $main-width;
-      min-height: $main-height;
-      opacity: 0.85;
-  }
-
   nav {
     flex-basis: $high-basis;
 
     a {
       text-decoration: none;
       height: 9px;
-      color: #ffffff;
-      font-family: "Roboto", sans-serif;
+      color: $light-font-color;
+      font-family: $Roboto-font;
       font-size: 13px;
       font-weight: 900;
       text-transform: uppercase;
@@ -49,7 +49,7 @@
 
 .header-logo {
   color: $buttons-and-header-logo-color;
-  font-family: "Roboto", sans-serif;
+  font-family: $Roboto-font;
   font-size: 30px;
   font-weight: 100;
   padding-left: 55px;
