@@ -1,29 +1,35 @@
 @import "app-variables";
 
 .header {
-  width: $main-section-width;
-  min-height: $main-section-min-height;
+  width: $main-width;
+  min-height: $main-height;
   overflow: hidden;
+  position: relative;
 
   h1 {
     flex-basis: $small-basis;
     box-sizing: border-box;
     height: 80px;
     padding-top: 26px;
+    position: relative;
   }
 
   nav {
     flex-basis: $high-basis;
+  }
 
+  header {
+    margin-bottom: 135px;
   }
 }
 
-.header-logo-item {
-  color: #00e0d0;
+.header-logo {
+  color: $buttons-and-header-logo-color;
   font-family: "Roboto", sans-serif;
   font-size: 30px;
   font-weight: 100;
   padding-left: 55px;
+  text-decoration: none;
 
   &:before {
     content: url("../images/logo.png");
@@ -33,6 +39,5 @@
 
   }
 }
-
 
 

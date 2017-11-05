@@ -1,7 +1,7 @@
 //main-sizes
-$main-section-width: 100%;
-$main-section-min-height: 100vh;
-$wrapper-width: 940px;
+$main-width: 100%;
+$main-height: 100vh;
+
 
 //flex
 $flex-display: flex;
@@ -11,4 +11,7 @@ $small-basis: 40%;
 $high-basis: 60%;
 
 //indents
-$basic-margin-top: 36px;
+
+//colors
+$buttons-and-header-logo-color: #00e0d0;
+$light-font-color: #ffffff;

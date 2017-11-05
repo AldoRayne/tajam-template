@@ -75,29 +75,36 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 100%;
   min-height: 100vh;
   overflow: hidden;
+  position: relative;
 }
-/* line 8, ../sass/_app-header.scss */
+/* line 9, ../sass/_app-header.scss */
 .header h1 {
   flex-basis: 40%;
   box-sizing: border-box;
   height: 80px;
   padding-top: 26px;
+  position: relative;
 }
-/* line 15, ../sass/_app-header.scss */
+/* line 17, ../sass/_app-header.scss */
 .header nav {
   flex-basis: 60%;
 }
-
 /* line 21, ../sass/_app-header.scss */
-.header-logo-item {
+.header header {
+  margin-bottom: 135px;
+}
+
+/* line 26, ../sass/_app-header.scss */
+.header-logo {
   color: #00e0d0;
   font-family: "Roboto", sans-serif;
   font-size: 30px;
   font-weight: 100;
   padding-left: 55px;
+  text-decoration: none;
 }
-/* line 28, ../sass/_app-header.scss */
-.header-logo-item:before {
+/* line 34, ../sass/_app-header.scss */
+.header-logo:before {
   content: url("../images/logo.png");
   position: absolute;
   left: 0;
@@ -106,8 +113,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /* line 3, ../sass/_app-wrapper.scss */
 .wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
   width: 940px;
-  position: relative;
   margin: auto;
 }
 
@@ -116,4 +126,51 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+/* line 3, ../sass/_app-image.scss */
+.big-image {
+  width: auto;
+  min-height: 100vh;
+}
+
+/* line 3, ../sass/_app-section-title.scss */
+.section-title {
+  width: 770px;
+  height: 150px;
+  margin: auto;
+}
+/* line 8, ../sass/_app-section-title.scss */
+.section-title h2 {
+  position: relative;
+  text-align: center;
+  color: #ffffff;
+  font-family: "Playfair Display", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  letter-spacing: 0.32px;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+/* line 19, ../sass/_app-section-title.scss */
+.section-title h2:after {
+  position: absolute;
+  content: "";
+  background-color: #00e0d0;
+  width: 50px;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+/* line 32, ../sass/_app-section-title.scss */
+.section-title p {
+  text-align: center;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0.7px;
 }

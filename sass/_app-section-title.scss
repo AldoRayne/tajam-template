@@ -1,0 +1,41 @@
+@import "app-variables";
+
+.section-title {
+  width: 770px;
+  height: 150px;
+  margin: auto;
+
+  h2 {
+    position: relative;
+    text-align: center;
+    color: $light-font-color;
+    font-family: "Playfair Display", sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    letter-spacing: 0.32px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+
+    &:after {
+      position: absolute;
+      content: "";
+      background-color: $buttons-and-header-logo-color;
+      width: 50px;
+      height: 1px;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+    }
+  }
+
+  p {
+    text-align: center;
+    color: $light-font-color;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0.7px;
+  }
+}
