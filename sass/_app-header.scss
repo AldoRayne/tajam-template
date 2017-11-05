@@ -1,0 +1,38 @@
+@import "app-variables";
+
+.header {
+  width: $main-section-width;
+  min-height: $main-section-min-height;
+  overflow: hidden;
+
+  h1 {
+    flex-basis: $small-basis;
+    box-sizing: border-box;
+    height: 80px;
+    padding-top: 26px;
+  }
+
+  nav {
+    flex-basis: $high-basis;
+
+  }
+}
+
+.header-logo-item {
+  color: #00e0d0;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: 100;
+  padding-left: 55px;
+
+  &:before {
+    content: url("../images/logo.png");
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+
+  }
+}
+
+
+

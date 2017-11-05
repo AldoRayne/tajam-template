@@ -1,7 +1,7 @@
 /* Welcome to Compass.
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
- * <link href="/style/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 @import url("https://fonts.googleapis.com/css?family=Hammersmith+One");
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display");
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,400,900");
@@ -68,4 +68,52 @@ a img {
 /* line 116, ../../../Ruby24/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
+}
+
+/* line 3, ../sass/_app-header.scss */
+.header {
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+}
+/* line 8, ../sass/_app-header.scss */
+.header h1 {
+  flex-basis: 40%;
+  box-sizing: border-box;
+  height: 80px;
+  padding-top: 26px;
+}
+/* line 15, ../sass/_app-header.scss */
+.header nav {
+  flex-basis: 60%;
+}
+
+/* line 21, ../sass/_app-header.scss */
+.header-logo-item {
+  color: #00e0d0;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: 100;
+  padding-left: 55px;
+}
+/* line 28, ../sass/_app-header.scss */
+.header-logo-item:before {
+  content: url("../images/logo.png");
+  position: absolute;
+  left: 0;
+  bottom: 5px;
+}
+
+/* line 3, ../sass/_app-wrapper.scss */
+.wrapper {
+  width: 940px;
+  position: relative;
+  margin: auto;
+}
+
+/* line 3, ../sass/_app-flexbox.scss */
+.row-flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
