@@ -64,4 +64,13 @@
   }
 }
 
+.about-us-header {
+  position: relative;
+
+  &:after {
+    content: "";
+    background-color: $buttons-and-header-logo-color;
+  }
+}
+
 

@@ -1,0 +1,14 @@
+@import "app-variables";
+
+.little-section {
+  position: relative;
+  width: $main-width;
+
+  h2 {
+    margin-bottom: 30px;
+  }
+}
+
+.content-padding {
+  margin-top: 70px;
+}
