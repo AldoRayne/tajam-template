@@ -6,15 +6,6 @@
   overflow: hidden;
   position: relative;
 
-  &:before {
-    position: absolute;
-    content: "";
-    background-image: linear-gradient(to right, #09052f 0%, #311d5e 100%);
-    width: $main-width;
-    min-height: $main-height;
-    opacity: 0.85;
-  }
-
   h1 {
     flex-basis: $small-basis;
     box-sizing: border-box;
@@ -64,13 +55,6 @@
   }
 }
 
-.about-us-header {
-  position: relative;
 
-  &:after {
-    content: "";
-    background-color: $buttons-and-header-logo-color;
-  }
-}
 
 

@@ -78,15 +78,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   position: relative;
 }
 /* line 9, ../sass/_app-header.scss */
-.header:before {
-  position: absolute;
-  content: "";
-  background-image: linear-gradient(to right, #09052f 0%, #311d5e 100%);
-  width: 100%;
-  min-height: 100vh;
-  opacity: 0.85;
-}
-/* line 18, ../sass/_app-header.scss */
 .header h1 {
   flex-basis: 40%;
   box-sizing: border-box;
@@ -94,11 +85,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   padding-top: 26px;
   position: relative;
 }
-/* line 26, ../sass/_app-header.scss */
+/* line 17, ../sass/_app-header.scss */
 .header nav {
   flex-basis: 60%;
 }
-/* line 29, ../sass/_app-header.scss */
+/* line 20, ../sass/_app-header.scss */
 .header nav a {
   text-decoration: none;
   height: 9px;
@@ -109,16 +100,16 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   text-transform: uppercase;
   letter-spacing: 0.33px;
 }
-/* line 39, ../sass/_app-header.scss */
+/* line 30, ../sass/_app-header.scss */
 .header nav a:hover {
   color: #00e0d0;
 }
-/* line 45, ../sass/_app-header.scss */
+/* line 36, ../sass/_app-header.scss */
 .header header {
   margin-bottom: 135px;
 }
 
-/* line 50, ../sass/_app-header.scss */
+/* line 41, ../sass/_app-header.scss */
 .header-logo {
   color: #00e0d0;
   font-family: "Roboto", sans-serif;
@@ -127,22 +118,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   padding-left: 55px;
   text-decoration: none;
 }
-/* line 58, ../sass/_app-header.scss */
+/* line 49, ../sass/_app-header.scss */
 .header-logo:before {
   content: url("../images/logo.png");
   position: absolute;
   left: 0;
   bottom: 5px;
-}
-
-/* line 67, ../sass/_app-header.scss */
-.about-us-header {
-  position: relative;
-}
-/* line 70, ../sass/_app-header.scss */
-.about-us-header:after {
-  content: "";
-  background-color: #00e0d0;
 }
 
 /* line 3, ../sass/_app-wrapper.scss */
@@ -169,15 +150,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 /* line 3, ../sass/_app-section-title.scss */
-.section-title {
+.about-us {
   width: 770px;
   margin: 50px auto;
 }
 /* line 7, ../sass/_app-section-title.scss */
-.section-title h2 {
+.about-us h2 {
   position: relative;
   text-align: center;
-  color: #ffffff;
   font-family: "Playfair Display", sans-serif;
   font-size: 32px;
   font-weight: 900;
@@ -185,8 +165,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   padding-bottom: 20px;
   margin-bottom: 30px;
 }
-/* line 18, ../sass/_app-section-title.scss */
-.section-title h2:after {
+/* line 17, ../sass/_app-section-title.scss */
+.about-us h2:after {
   content: "";
   position: absolute;
   width: 50px;
@@ -195,11 +175,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   left: 0;
   right: 0;
   margin: 0 auto;
+  background-color: #00e0d0;
 }
 /* line 30, ../sass/_app-section-title.scss */
-.section-title p {
+.about-us p {
   text-align: center;
-  color: #ffffff;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: 300;
@@ -207,51 +187,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   letter-spacing: 0.7px;
 }
 
-/* line 3, ../sass/_app-button.scss */
-.button-link {
-  text-decoration: none;
-}
-
-/* line 7, ../sass/_app-button.scss */
-.button {
-  width: 120px;
-  height: 40px;
-  line-height: 40px;
-  border: 1px solid #00e0d0;
-  margin: 0 auto 70px;
-}
-/* line 14, ../sass/_app-button.scss */
-.button p {
-  color: #00e0d0;
-  font-family: "Hammersmith One", sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  text-transform: uppercase;
-  text-align: center;
-}
-
-/* line 3, ../sass/_app-main-section.scss */
-.little-section {
-  position: relative;
-  width: 100%;
-}
-/* line 7, ../sass/_app-main-section.scss */
-.little-section h2 {
-  margin-bottom: 30px;
-}
-
-/* line 12, ../sass/_app-main-section.scss */
-.content-padding {
-  margin-top: 70px;
-}
-
-/* line 3, ../sass/_app-our-story.scss */
-.our-story-block {
+/* line 40, ../sass/_app-section-title.scss */
+.our-story {
   width: 538px;
   min-height: 230px;
 }
-/* line 7, ../sass/_app-our-story.scss */
-.our-story-block h2 {
+/* line 44, ../sass/_app-section-title.scss */
+.our-story h2 {
   width: 135px;
   color: #413d4b;
   font-family: "Playfair Display", sans-serif;
@@ -260,8 +202,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   text-transform: uppercase;
   letter-spacing: 1.1px;
 }
-/* line 17, ../sass/_app-our-story.scss */
-.our-story-block p {
+/* line 54, ../sass/_app-section-title.scss */
+.our-story p {
   width: 538px;
   opacity: 0.75;
   color: #413d4b;
@@ -270,4 +212,129 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-weight: 300;
   line-height: 22px;
   letter-spacing: 0.42px;
+}
+
+/* line 66, ../sass/_app-section-title.scss */
+.expertise {
+  margin: auto;
+  width: 538px;
+  text-align: center;
+}
+/* line 71, ../sass/_app-section-title.scss */
+.expertise h2 {
+  color: #413d4b;
+  font-family: "Playfair Display", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.1px;
+  margin-bottom: 16px;
+}
+/* line 81, ../sass/_app-section-title.scss */
+.expertise p {
+  height: 15px;
+  opacity: 0.75;
+  color: #2f2d35;
+  font-family: "Playfair Display", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1.05px;
+  padding-bottom: 18px;
+}
+/* line 91, ../sass/_app-section-title.scss */
+.expertise p:after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  background-color: #00e0d0;
+}
+
+/* line 3, ../sass/_app-button.scss */
+.button-link {
+  text-decoration: none;
+}
+/* line 7, ../sass/_app-button.scss */
+.button-link p {
+  color: #00e0d0;
+  font-family: "Hammersmith One", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* line 17, ../sass/_app-button.scss */
+.button {
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  border: 1px solid #00e0d0;
+  margin: 0 auto 70px;
+}
+
+/* line 25, ../sass/_app-button.scss */
+.player-button {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  margin: calc(50% - 100px) auto;
+}
+/* line 31, ../sass/_app-button.scss */
+.player-button a:before {
+  position: absolute;
+  width: 37px;
+  height: 45px;
+  content: "";
+  background-image: url("../images/play.png");
+  margin-left: 35px;
+  margin-top: 28px;
+}
+/* line 41, ../sass/_app-button.scss */
+.player-button p {
+  margin-top: 34px;
+  margin-left: -25px;
+  width: 156px;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+}
+
+/* line 3, ../sass/_app-main-section.scss */
+.little-section {
+  position: relative;
+  width: 100%;
+  min-height: 350px;
+  margin-top: 70px;
+}
+/* line 9, ../sass/_app-main-section.scss */
+.little-section h2 {
+  margin-bottom: 30px;
+}
+
+/* line 14, ../sass/_app-main-section.scss */
+.big-section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  padding: 70px 0;
+  box-sizing: border-box;
+}
+
+/* line 23, ../sass/_app-main-section.scss */
+.gradient:before {
+  position: absolute;
+  content: "";
+  background-image: linear-gradient(to right, #09052f 0%, #311d5e 100%);
+  width: 100%;
+  min-height: 100vh;
+  opacity: 0.85;
 }

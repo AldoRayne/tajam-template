@@ -2,14 +2,7 @@
 
 .button-link {
   text-decoration: none;
-}
 
-.button {
-  width: 120px;
-  height: 40px;
-  line-height: 40px;
-  border: 1px solid $buttons-and-header-logo-color;
-  margin: 0 auto 70px;
 
   p {
     color: $buttons-and-header-logo-color;
@@ -18,5 +11,42 @@
     font-weight: 400;
     text-transform: uppercase;
     text-align: center;
+  }
+}
+
+.button {
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  border: 1px solid $buttons-and-header-logo-color;
+  margin: 0 auto 70px;
+}
+
+.player-button {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  margin: calc(50% - 100px) auto;
+  
+  a:before {
+    position: absolute;
+    width: 37px;
+    height: 45px;
+    content: "";
+    background-image: url("../images/play.png");
+    margin-left: 35px;
+    margin-top: 28px;
+  }
+
+  p {
+    margin-top: 34px;
+    margin-left: -25px;
+    width: 156px;
+    color: #ffffff;
+    font-family: $Roboto-font;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
   }
 }

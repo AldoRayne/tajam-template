@@ -3,12 +3,28 @@
 .little-section {
   position: relative;
   width: $main-width;
+  min-height: 350px;
+  margin-top: 70px;
 
   h2 {
     margin-bottom: 30px;
   }
 }
 
-.content-padding {
-  margin-top: 70px;
+.big-section {
+  position: relative;
+  width: $main-width;
+  min-height: $main-height;
+  overflow: hidden;
+  padding: 70px 0;
+  box-sizing: border-box;
+}
+
+.gradient:before {
+  position: absolute;
+  content: "";
+  background-image: $gradient;
+  width: $main-width;
+  min-height: $main-height;
+  opacity: 0.85;
 }

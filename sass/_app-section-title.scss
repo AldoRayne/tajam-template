@@ -1,13 +1,12 @@
 @import "app-variables";
 
-.section-title {
+.about-us {
   width: 770px;
   margin: 50px auto;
 
   h2 {
     position: relative;
     text-align: center;
-    color: $light-font-color;
     font-family: $Playfair-font;
     font-size: 32px;
     font-weight: 900;
@@ -24,16 +23,81 @@
       left: 0;
       right: 0;
       margin: 0 auto;
+      background-color: $buttons-and-header-logo-color;
     }
   }
 
   p {
     text-align: center;
-    color: $light-font-color;
     font-family: $Roboto-font;
     font-size: 14px;
     font-weight: 300;
     line-height: 24px;
     letter-spacing: 0.7px;
   }
+}
+
+.our-story {
+  width: 538px;
+  min-height: 230px;
+
+  h2 {
+    width: 135px;
+    color: #413d4b;
+    font-family: $Playfair-font;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+  }
+
+  p {
+    width: 538px;
+    opacity: 0.75;
+    color: #413d4b;
+    font-family: $Roboto-font;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    letter-spacing: 0.42px;
+  }
+}
+
+.expertise {
+  margin: auto;
+  width: 538px;
+  text-align: center;
+
+  h2 {
+    color: #413d4b;
+    font-family: $Playfair-font;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+    margin-bottom: 16px;
+  }
+
+   p {
+     height: 15px;
+     opacity: 0.75;
+     color: #2f2d35;
+     font-family: $Playfair-font;
+     font-size: 14px;
+     font-weight: 400;
+     letter-spacing: 1.05px;
+     padding-bottom: 18px;
+
+     &:after {
+       content: "";
+       position: absolute;
+       width: 50px;
+       height: 1px;
+       bottom: 0;
+       left: 0;
+       right: 0;
+       margin: 0 auto;
+       background-color: $buttons-and-header-logo-color;
+     }
+   }
 }
