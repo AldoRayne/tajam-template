@@ -7,6 +7,7 @@
   text-align: center;
 
   h2 {
+    margin-top: 70px;
     color: #413d4b;
     font-family: $Playfair-font;
     font-size: 22px;
@@ -35,30 +36,59 @@
       left: 0;
       right: 0;
       margin: 0 auto;
-      background-color: $buttons-and-header-logo-color;
+      background-color: #413d4b;
     }
   }
 }
 
 .expertise-list {
-  margin-top: 50px;
+  margin: 50px;
 
   li {
+    position: relative;
     width: 320px;
+    height: 250px;
     padding: 32px;
-    flex-basis: 33%;
+    flex-basis: 33.3%;
     box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     text-align: center;
 
     h3 {
-      margin-top: 35px;
+      position: absolute;
+      width: 212px;
+      top: 117px;
+      color: #413d4b;
+      font-size: 14px;
+      font-weight: 400;
+      text-transform: uppercase;
+      letter-spacing: 0.7px;
     }
 
     p {
-      margin-top: 25px;
+      position: absolute;
+      width: 212px;
+      top: 152px;
+      opacity: 0.75;
+      color: #333333;
+      font-size: 14px;
+      font-weight: 300;
+      line-height: 22px;
+
+      letter-spacing: 0.7px;
+    }
+
+    &:first-child {
+      border-right: 1px solid #a9a9a9;
+      border-bottom: 1px solid #a9a9a9;
+    }
+
+    &:nth-child(2) {
+      border-right: 1px solid #a9a9a9;
+      border-bottom: 1px solid #a9a9a9;
+    }
+
+    &:nth-child(3) {
+      border-bottom: 1px solid #a9a9a9;
     }
   }
 }

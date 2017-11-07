@@ -150,6 +150,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   min-height: 100vh;
 }
 
+/* line 8, ../sass/_app-image.scss */
+.small-image {
+  width: 100%;
+  height: 70vh;
+}
+
 /* line 3, ../sass/_app-section-title.scss */
 .about-us {
   width: 770px;
@@ -213,6 +219,48 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-weight: 300;
   line-height: 22px;
   letter-spacing: 0.42px;
+}
+
+/* line 66, ../sass/_app-section-title.scss */
+.our-team {
+  position: relative;
+  margin: auto;
+  width: 538px;
+  text-align: center;
+}
+/* line 72, ../sass/_app-section-title.scss */
+.our-team h2 {
+  margin-top: 70px;
+  font-family: "Playfair Display", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.1px;
+  margin-bottom: 16px;
+  color: #ffffff;
+}
+/* line 83, ../sass/_app-section-title.scss */
+.our-team p {
+  height: 15px;
+  opacity: 0.75;
+  color: #ffffff;
+  font-family: "Playfair Display", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1.05px;
+  padding-bottom: 18px;
+}
+/* line 93, ../sass/_app-section-title.scss */
+.our-team p:after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  background-color: #ffffff;
 }
 
 /* line 3, ../sass/_app-button.scss */
@@ -286,11 +334,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 100%;
   min-height: 100vh;
   overflow: hidden;
-  padding: 70px 0;
   box-sizing: border-box;
 }
 
-/* line 23, ../sass/_app-main-section.scss */
+/* line 22, ../sass/_app-main-section.scss */
 .gradient:before {
   position: absolute;
   content: "";
@@ -309,6 +356,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 /* line 9, ../sass/_app-expertise.scss */
 .expertise h2 {
+  margin-top: 70px;
   color: #413d4b;
   font-family: "Playfair Display", sans-serif;
   font-size: 22px;
@@ -317,7 +365,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   letter-spacing: 1.1px;
   margin-bottom: 16px;
 }
-/* line 19, ../sass/_app-expertise.scss */
+/* line 20, ../sass/_app-expertise.scss */
 .expertise p {
   height: 15px;
   opacity: 0.75;
@@ -328,7 +376,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   letter-spacing: 1.05px;
   padding-bottom: 18px;
 }
-/* line 29, ../sass/_app-expertise.scss */
+/* line 30, ../sass/_app-expertise.scss */
 .expertise p:after {
   content: "";
   position: absolute;
@@ -338,29 +386,57 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   left: 0;
   right: 0;
   margin: 0 auto;
-  background-color: #00e0d0;
+  background-color: #413d4b;
 }
 
-/* line 43, ../sass/_app-expertise.scss */
+/* line 44, ../sass/_app-expertise.scss */
 .expertise-list {
-  margin-top: 50px;
+  margin: 50px;
 }
-/* line 46, ../sass/_app-expertise.scss */
+/* line 47, ../sass/_app-expertise.scss */
 .expertise-list li {
+  position: relative;
   width: 320px;
+  height: 250px;
   padding: 32px;
-  flex-basis: 33%;
+  flex-basis: 33.3%;
   box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   text-align: center;
 }
 /* line 56, ../sass/_app-expertise.scss */
 .expertise-list li h3 {
-  margin-top: 35px;
+  position: absolute;
+  width: 212px;
+  top: 117px;
+  color: #413d4b;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
 }
-/* line 60, ../sass/_app-expertise.scss */
+/* line 67, ../sass/_app-expertise.scss */
 .expertise-list li p {
-  margin-top: 25px;
+  position: absolute;
+  width: 212px;
+  top: 152px;
+  opacity: 0.75;
+  color: #333333;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  letter-spacing: 0.7px;
+}
+/* line 80, ../sass/_app-expertise.scss */
+.expertise-list li:first-child {
+  border-right: 1px solid #a9a9a9;
+  border-bottom: 1px solid #a9a9a9;
+}
+/* line 85, ../sass/_app-expertise.scss */
+.expertise-list li:nth-child(2) {
+  border-right: 1px solid #a9a9a9;
+  border-bottom: 1px solid #a9a9a9;
+}
+/* line 90, ../sass/_app-expertise.scss */
+.expertise-list li:nth-child(3) {
+  border-bottom: 1px solid #a9a9a9;
 }
