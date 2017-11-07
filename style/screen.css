@@ -237,7 +237,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /* line 17, ../sass/_app-button.scss */
 .button {
-  width: 120px;
+  width: 135px;
   height: 40px;
   line-height: 40px;
   border: 1px solid #00e0d0;
@@ -477,4 +477,21 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-size: 13px;
   font-weight: 300;
   text-transform: uppercase;
+}
+
+/* line 79, ../sass/_app-our-team.scss */
+.our-team-footer {
+  margin-top: 120px;
+  text-align: center;
+}
+
+/* line 84, ../sass/_app-our-team.scss */
+.join-us {
+  height: 14px;
+  color: #f3f3f3;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0.7px;
+  margin-bottom: 26px;
 }
