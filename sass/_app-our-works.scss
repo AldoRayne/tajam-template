@@ -1,0 +1,40 @@
+@import "app-variables";
+
+.our-works {
+
+  h2, a {
+    margin-top: 70px;
+  }
+
+  h2 {
+    width: 142px;
+    height: 16px;
+    color: #413d4b;
+    font-family: $Playfair-font;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+  }
+
+  a {
+    width: 173px;
+    height: 14px;
+    color: #413d4b;
+    font-family: $Roboto-font;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.7px;
+    text-decoration: none;
+  }
+}
+
+.our-works-list {
+  margin-top: 157px;
+  margin-bottom: 85px;
+
+  li {
+    width: 267px;
+    height: 200px;
+  }
+}

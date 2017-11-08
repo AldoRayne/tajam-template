@@ -144,6 +144,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   flex-wrap: wrap;
 }
 
+/* line 10, ../sass/_app-flexbox.scss */
+.row-flex-center {
+  display: flex;
+  justify-content: center;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+
 /* line 3, ../sass/_app-image.scss */
 .big-image {
   width: auto;
@@ -494,4 +502,42 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-weight: 300;
   letter-spacing: 0.7px;
   margin-bottom: 26px;
+}
+
+/* line 5, ../sass/_app-our-works.scss */
+.our-works h2, .our-works a {
+  margin-top: 70px;
+}
+/* line 9, ../sass/_app-our-works.scss */
+.our-works h2 {
+  width: 142px;
+  height: 16px;
+  color: #413d4b;
+  font-family: "Playfair Display", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.1px;
+}
+/* line 20, ../sass/_app-our-works.scss */
+.our-works a {
+  width: 173px;
+  height: 14px;
+  color: #413d4b;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0.7px;
+  text-decoration: none;
+}
+
+/* line 32, ../sass/_app-our-works.scss */
+.our-works-list {
+  margin-top: 157px;
+  margin-bottom: 85px;
+}
+/* line 36, ../sass/_app-our-works.scss */
+.our-works-list li {
+  width: 267px;
+  height: 200px;
 }
