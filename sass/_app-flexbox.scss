@@ -10,6 +10,13 @@
 .row-flex-center {
   display: $flex-display;
   justify-content: center;
-  align-content: flex-start;
+  align-content: center;
   flex-wrap: wrap;
+}
+
+.row-flex-around {
+  display: $flex-display;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
 }

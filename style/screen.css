@@ -148,8 +148,16 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .row-flex-center {
   display: flex;
   justify-content: center;
-  align-content: flex-start;
+  align-content: center;
   flex-wrap: wrap;
+}
+
+/* line 17, ../sass/_app-flexbox.scss */
+.row-flex-around {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
 }
 
 /* line 3, ../sass/_app-image.scss */
@@ -575,4 +583,25 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   left: 0;
   right: 0;
   margin: 0 auto;
+}
+/* line 30, ../sass/_app-our-quotes.scss */
+.our-quotes footer {
+  margin-top: 52px;
+}
+
+/* line 3, ../sass/_app-carousel.scss */
+.carousel {
+  margin: 80px auto 0;
+  width: 400px;
+  height: 100px;
+}
+/* line 8, ../sass/_app-carousel.scss */
+.carousel ul {
+  width: 400px;
+}
+/* line 12, ../sass/_app-carousel.scss */
+.carousel button {
+  background: none;
+  border: none;
+  cursor: pointer;
 }
