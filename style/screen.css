@@ -605,3 +605,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   border: none;
   cursor: pointer;
 }
+
+/* line 3, ../sass/_app-our-clients.scss */
+.news-form {
+  flex-basis: 50%;
+}
+
+/* line 7, ../sass/_app-our-clients.scss */
+.our-client {
+  flex-basis: 50%;
+}
