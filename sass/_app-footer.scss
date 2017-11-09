@@ -1,7 +1,7 @@
 @import "app-variables";
 
 .footer-description, .our-contacts, .subscribe {
-  margin-top: 70px;
+  margin-top: 80px;
 
   h2, p {
     color: #ffffff;
@@ -36,7 +36,7 @@
 
   p:last-child {
     position: relative;
-    margin-top: 27px;
+    margin-top: 20px;
 
     &:before {
       position: absolute;
@@ -52,18 +52,113 @@
 .subscribe {
   width: 291px;
 
-  input[type="email"] {
-    background: none;
-    width: 211px;
-    height: 45px;
-    border: 1px solid #ffffff;
+  input {
+    &[type="email"] {
+      background: none;
+      width: 211px;
+      height: 45px;
+      border: 1px solid #ffffff;
+    }
+
+    &[type="button"] {
+      background: url("../images/mini-logo.png") #ffffff no-repeat center;
+      opacity: 0.5;
+      border: none;
+      width: 70px;
+      height: 45px;
+      cursor: pointer;
+    }
   }
+
+  ul {
+    margin-top: 30px;
+
+    li {
+      position: relative;
+      width: 35px;
+      height: 35px;
+    }
+  }
+
+    li:not(:last-child) {
+      margin-right: 8px;
+    }
+  }
+
+.facebook:before {
+  position: absolute;
+  content: "";
+  background-image: url("../images/social-icon-1.png");
+  width: 7px;
+  height: 15px;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
 
-.subscribe-button {
-  background: url("../images/mini-logo.png") #ffffff no-repeat center;
-  opacity: 0.5;
-  border: none;
-  width: 70px;
-  height: 45px;
+.twitter:before {
+  position: absolute;
+  content: "";
+  background-image: url("../images/social-icon-2.png");
+  width: 14px;
+  height: 11px;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.dribble:before {
+  position: absolute;
+  content: "";
+  background-image: url("../images/social-icon-3.png");
+  width: 16px;
+  height: 16px;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.insta:before {
+  position: absolute;
+  content: "";
+  background-image: url("../images/social-icon-4.png");
+  width: 15px;
+  height: 15px;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.google-plus:before {
+  position: absolute;
+  content: "";
+  background-image: url("../images/social-icon-5.png");
+  width: 15px;
+  height: 15px;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.youtube:before {
+  position: absolute;
+  content: "";
+  background-image: url("../images/social-icon-6.png");
+  width: 17px;
+  height: 11px;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
 }

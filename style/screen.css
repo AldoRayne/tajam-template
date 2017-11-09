@@ -162,6 +162,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 /* line 23, ../sass/_app-flexbox.scss */
+.row-flex-start {
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+/* line 30, ../sass/_app-flexbox.scss */
 .row-flex-around {
   display: flex;
   justify-content: space-around;
@@ -693,7 +701,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /* line 3, ../sass/_app-footer.scss */
 .footer-description, .our-contacts, .subscribe {
-  margin-top: 70px;
+  margin-top: 80px;
 }
 /* line 6, ../sass/_app-footer.scss */
 .footer-description h2, .footer-description p, .our-contacts h2, .our-contacts p, .subscribe h2, .subscribe p {
@@ -731,7 +739,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* line 37, ../sass/_app-footer.scss */
 .our-contacts p:last-child {
   position: relative;
-  margin-top: 27px;
+  margin-top: 20px;
 }
 /* line 41, ../sass/_app-footer.scss */
 .our-contacts p:last-child:before {
@@ -747,19 +755,117 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .subscribe {
   width: 291px;
 }
-/* line 55, ../sass/_app-footer.scss */
+/* line 56, ../sass/_app-footer.scss */
 .subscribe input[type="email"] {
   background: none;
   width: 211px;
   height: 45px;
   border: 1px solid #ffffff;
 }
-
 /* line 63, ../sass/_app-footer.scss */
-.subscribe-button {
+.subscribe input[type="button"] {
   background: url("../images/mini-logo.png") #ffffff no-repeat center;
   opacity: 0.5;
   border: none;
   width: 70px;
   height: 45px;
+  cursor: pointer;
+}
+/* line 73, ../sass/_app-footer.scss */
+.subscribe ul {
+  margin-top: 30px;
+}
+/* line 76, ../sass/_app-footer.scss */
+.subscribe ul li {
+  position: relative;
+  width: 35px;
+  height: 35px;
+}
+/* line 83, ../sass/_app-footer.scss */
+.subscribe li:not(:last-child) {
+  margin-right: 8px;
+}
+
+/* line 88, ../sass/_app-footer.scss */
+.facebook:before {
+  position: absolute;
+  content: "";
+  background-image: url("../images/social-icon-1.png");
+  width: 7px;
+  height: 15px;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+/* line 101, ../sass/_app-footer.scss */
+.twitter:before {
+  position: absolute;
+  content: "";
+  background-image: url("../images/social-icon-2.png");
+  width: 14px;
+  height: 11px;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+/* line 114, ../sass/_app-footer.scss */
+.dribble:before {
+  position: absolute;
+  content: "";
+  background-image: url("../images/social-icon-3.png");
+  width: 16px;
+  height: 16px;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+/* line 127, ../sass/_app-footer.scss */
+.insta:before {
+  position: absolute;
+  content: "";
+  background-image: url("../images/social-icon-4.png");
+  width: 15px;
+  height: 15px;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+/* line 140, ../sass/_app-footer.scss */
+.google-plus:before {
+  position: absolute;
+  content: "";
+  background-image: url("../images/social-icon-5.png");
+  width: 15px;
+  height: 15px;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+/* line 153, ../sass/_app-footer.scss */
+.youtube:before {
+  position: absolute;
+  content: "";
+  background-image: url("../images/social-icon-6.png");
+  width: 17px;
+  height: 11px;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
