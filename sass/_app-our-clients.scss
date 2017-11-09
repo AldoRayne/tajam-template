@@ -1,9 +1,67 @@
 @import "app-variables";
 
-.news-form {
-  flex-basis: $fifty-basis;
+.our-clients, .news-form {
+
+  h2 {
+    color: #413d4b;
+    font-family: $Playfair-font;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+  }
 }
 
-.our-client {
+.news-form {
   flex-basis: $fifty-basis;
+  min-height: $main-min-height;
+  margin-top: 70px;
+
+  h2 {
+    margin-bottom: 60px;
+  }
+
+  p:not(:last-child) {
+    padding-bottom: 23px;
+  }
+
+  input {
+    width: 340px;
+    height: 28px;
+  }
+
+  textarea {
+    width: 340px;
+    height: 200px;
+    resize: none;
+  }
 }
+
+.our-clients {
+  flex-basis: $fifty-basis;
+  min-height: $main-min-height;
+  margin-top: 70px;
+
+  ul {
+    min-height: 450px;
+    margin-top: 47px;
+  }
+
+  li {
+    flex-basis: $fifty-basis;
+  }
+}
+
+.news-form-button {
+  width: 135px;
+  height: 40px;
+  color: $buttons-and-header-logo-color;
+  font-family: $Hammersmith-font;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  background: none;
+  border: 1px solid $buttons-and-header-logo-color;
+}
+

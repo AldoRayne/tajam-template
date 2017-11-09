@@ -7,6 +7,12 @@
   flex-wrap: wrap;
 }
 
+.row-flex-between-not-align {
+  display: $flex-display;
+  justify-content: $between;
+  flex-wrap: wrap;
+}
+
 .row-flex-center {
   display: $flex-display;
   justify-content: center;
