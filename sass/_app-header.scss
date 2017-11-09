@@ -39,6 +39,7 @@
 }
 
 .header-logo {
+  position: relative;
   color: $buttons-and-header-logo-color;
   font-family: $Roboto-font;
   font-size: 30px;
@@ -50,6 +51,7 @@
     content: url("../images/logo.png");
     position: absolute;
     left: 0;
+    top: 0;
     bottom: 5px;
 
   }

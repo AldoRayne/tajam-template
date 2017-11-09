@@ -1,0 +1,69 @@
+@import "app-variables";
+
+.footer-description, .our-contacts, .subscribe {
+  margin-top: 70px;
+
+  h2, p {
+    color: #ffffff;
+    font-family: $Roboto-font;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0.35px;
+  }
+}
+
+.footer-description {
+  width: 283px;
+}
+
+.our-contacts {
+  width: 267px;
+
+  p {
+    position: relative;
+
+    &:before {
+      position: absolute;
+      content: "";
+      background-image: url("../images/point.png");
+      width: 14px;
+      height: 19px;
+      left: -25px;
+      top: 4px;
+    }
+  }
+
+  p:last-child {
+    position: relative;
+    margin-top: 27px;
+
+    &:before {
+      position: absolute;
+      content: "";
+      background-image: url("../images/phone.png");
+      width: 17px;
+      height: 17px;
+      left: -25px;
+    }
+  }
+}
+
+.subscribe {
+  width: 291px;
+
+  input[type="email"] {
+    background: none;
+    width: 211px;
+    height: 45px;
+    border: 1px solid #ffffff;
+  }
+}
+
+.subscribe-button {
+  background: url("../images/mini-logo.png") #ffffff no-repeat center;
+  opacity: 0.5;
+  border: none;
+  width: 70px;
+  height: 45px;
+}

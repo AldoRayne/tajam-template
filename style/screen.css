@@ -111,6 +111,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /* line 41, ../sass/_app-header.scss */
 .header-logo {
+  position: relative;
   color: #00e0d0;
   font-family: "Roboto", sans-serif;
   font-size: 30px;
@@ -118,11 +119,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   padding-left: 55px;
   text-decoration: none;
 }
-/* line 49, ../sass/_app-header.scss */
+/* line 50, ../sass/_app-header.scss */
 .header-logo:before {
   content: url("../images/logo.png");
   position: absolute;
   left: 0;
+  top: 0;
   bottom: 5px;
 }
 
@@ -687,4 +689,77 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   text-align: center;
   background: none;
   border: 1px solid #00e0d0;
+}
+
+/* line 3, ../sass/_app-footer.scss */
+.footer-description, .our-contacts, .subscribe {
+  margin-top: 70px;
+}
+/* line 6, ../sass/_app-footer.scss */
+.footer-description h2, .footer-description p, .our-contacts h2, .our-contacts p, .subscribe h2, .subscribe p {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 26px;
+  letter-spacing: 0.35px;
+}
+
+/* line 16, ../sass/_app-footer.scss */
+.footer-description {
+  width: 283px;
+}
+
+/* line 20, ../sass/_app-footer.scss */
+.our-contacts {
+  width: 267px;
+}
+/* line 23, ../sass/_app-footer.scss */
+.our-contacts p {
+  position: relative;
+}
+/* line 26, ../sass/_app-footer.scss */
+.our-contacts p:before {
+  position: absolute;
+  content: "";
+  background-image: url("../images/point.png");
+  width: 14px;
+  height: 19px;
+  left: -25px;
+  top: 4px;
+}
+/* line 37, ../sass/_app-footer.scss */
+.our-contacts p:last-child {
+  position: relative;
+  margin-top: 27px;
+}
+/* line 41, ../sass/_app-footer.scss */
+.our-contacts p:last-child:before {
+  position: absolute;
+  content: "";
+  background-image: url("../images/phone.png");
+  width: 17px;
+  height: 17px;
+  left: -25px;
+}
+
+/* line 52, ../sass/_app-footer.scss */
+.subscribe {
+  width: 291px;
+}
+/* line 55, ../sass/_app-footer.scss */
+.subscribe input[type="email"] {
+  background: none;
+  width: 211px;
+  height: 45px;
+  border: 1px solid #ffffff;
+}
+
+/* line 63, ../sass/_app-footer.scss */
+.subscribe-button {
+  background: url("../images/mini-logo.png") #ffffff no-repeat center;
+  opacity: 0.5;
+  border: none;
+  width: 70px;
+  height: 45px;
 }
