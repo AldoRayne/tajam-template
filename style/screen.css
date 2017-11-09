@@ -869,3 +869,25 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   right: 0;
   margin: auto;
 }
+
+/* line 166, ../sass/_app-footer.scss */
+.site-footer {
+  margin-top: 200px;
+  width: 100%;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  text-transform: uppercase;
+  letter-spacing: 0.35px;
+}
+/* line 177, ../sass/_app-footer.scss */
+.site-footer a {
+  text-decoration: none;
+  color: #ffffff;
+}
+/* line 182, ../sass/_app-footer.scss */
+.site-footer li:not(:last-child) {
+  margin-right: 30px;
+}
