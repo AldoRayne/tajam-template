@@ -28,3 +28,11 @@
   opacity: 0.85;
 }
 
+.small-gradient:before {
+  position: absolute;
+  content: "";
+  background-image: $gradient;
+  width: 100%;
+  min-height: 100%;
+  opacity: 0.85;
+}

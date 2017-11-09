@@ -334,6 +334,16 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   opacity: 0.85;
 }
 
+/* line 31, ../sass/_app-main-section.scss */
+.small-gradient:before {
+  position: absolute;
+  content: "";
+  background-image: linear-gradient(to right, #09052f 0%, #311d5e 100%);
+  width: 100%;
+  min-height: 100%;
+  opacity: 0.85;
+}
+
 /* line 3, ../sass/_app-expertise.scss */
 .expertise {
   position: relative;
