@@ -4,7 +4,7 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 @import url("https://fonts.googleapis.com/css?family=Hammersmith+One");
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display|Roboto:300,900");
-@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,900");
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900");
 /* line 5, C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -128,6 +128,46 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   bottom: 5px;
 }
 
+/* line 59, ../sass/_app-header.scss */
+.about-us {
+  width: 770px;
+  margin: 50px auto;
+}
+/* line 63, ../sass/_app-header.scss */
+.about-us h2 {
+  position: relative;
+  text-align: center;
+  font-family: "Playfair Display", sans-serif;
+  font-size: 32px;
+  font-weight: 900;
+  letter-spacing: 0.32px;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  color: #ffffff;
+}
+/* line 74, ../sass/_app-header.scss */
+.about-us h2:after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  background-color: #00e0d0;
+}
+/* line 87, ../sass/_app-header.scss */
+.about-us p {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0.7px;
+  color: #ffffff;
+}
+
 /* line 3, ../sass/_app-wrapper.scss */
 .wrapper {
   position: absolute;
@@ -195,50 +235,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   height: 85vh;
 }
 
-/* line 3, ../sass/_app-section-title.scss */
-.about-us {
-  width: 770px;
-  margin: 50px auto;
-}
-/* line 7, ../sass/_app-section-title.scss */
-.about-us h2 {
-  position: relative;
-  text-align: center;
-  font-family: "Playfair Display", sans-serif;
-  font-size: 32px;
-  font-weight: 900;
-  letter-spacing: 0.32px;
-  padding-bottom: 20px;
-  margin-bottom: 30px;
-}
-/* line 17, ../sass/_app-section-title.scss */
-.about-us h2:after {
-  content: "";
-  position: absolute;
-  width: 50px;
-  height: 1px;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-  background-color: #00e0d0;
-}
-/* line 30, ../sass/_app-section-title.scss */
-.about-us p {
-  text-align: center;
-  font-family: "Roboto", sans-serif;
-  font-size: 14px;
-  font-weight: 300;
-  line-height: 24px;
-  letter-spacing: 0.7px;
-}
-
-/* line 40, ../sass/_app-section-title.scss */
+/* line 3, ../sass/_app-our-story.scss */
 .our-story {
   width: 538px;
   min-height: 230px;
 }
-/* line 44, ../sass/_app-section-title.scss */
+/* line 7, ../sass/_app-our-story.scss */
 .our-story h2 {
   width: 135px;
   color: #413d4b;
@@ -248,7 +250,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   text-transform: uppercase;
   letter-spacing: 1.1px;
 }
-/* line 54, ../sass/_app-section-title.scss */
+/* line 17, ../sass/_app-our-story.scss */
 .our-story p {
   width: 538px;
   opacity: 0.75;
@@ -311,6 +313,21 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 0.8px;
+}
+
+/* line 54, ../sass/_app-button.scss */
+.just-button {
+  width: 135px;
+  height: 40px;
+  color: #00e0d0;
+  font-family: "Hammersmith One", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  background: none;
+  border: 1px solid #00e0d0;
+  cursor: pointer;
 }
 
 /* line 3, ../sass/_app-main-section.scss */
@@ -416,12 +433,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 212px;
   top: 117px;
   color: #413d4b;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 900;
   text-transform: uppercase;
   letter-spacing: 0.7px;
 }
-/* line 67, ../sass/_app-expertise.scss */
+/* line 68, ../sass/_app-expertise.scss */
 .expertise-list li p {
   position: absolute;
   width: 212px;
@@ -431,21 +449,35 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-size: 14px;
   font-weight: 300;
   line-height: 22px;
+  font-family: "Roboto", sans-serif;
   letter-spacing: 0.7px;
 }
-/* line 80, ../sass/_app-expertise.scss */
-.expertise-list li:first-child {
+
+/* line 83, ../sass/_app-expertise.scss */
+.first-row-left {
   border-right: 1px solid #a9a9a9;
-  border-bottom: 1px solid #a9a9a9;
 }
-/* line 85, ../sass/_app-expertise.scss */
-.expertise-list li:nth-child(2) {
+
+/* line 87, ../sass/_app-expertise.scss */
+.first-row-middle {
   border-right: 1px solid #a9a9a9;
-  border-bottom: 1px solid #a9a9a9;
 }
-/* line 90, ../sass/_app-expertise.scss */
-.expertise-list li:nth-child(3) {
-  border-bottom: 1px solid #a9a9a9;
+
+/* line 91, ../sass/_app-expertise.scss */
+.second-row-left {
+  border-top: 1px solid #a9a9a9;
+  border-right: 1px solid #a9a9a9;
+}
+
+/* line 96, ../sass/_app-expertise.scss */
+.second-row-middle {
+  border-top: 1px solid #a9a9a9;
+  border-right: 1px solid #a9a9a9;
+}
+
+/* line 101, ../sass/_app-expertise.scss */
+.second-row-right {
+  border-top: 1px solid #a9a9a9;
 }
 
 /* line 3, ../sass/_app-our-team.scss */
@@ -561,7 +593,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   letter-spacing: 1.1px;
 }
 /* line 20, ../sass/_app-our-works.scss */
-.our-works a {
+.our-works button {
+  margin-left: calc(50% - 67.5px);
+}
+
+/* line 25, ../sass/_app-our-works.scss */
+.see-all-projects {
+  position: relative;
   width: 173px;
   height: 14px;
   color: #413d4b;
@@ -571,13 +609,22 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   letter-spacing: 0.7px;
   text-decoration: none;
 }
+/* line 36, ../sass/_app-our-works.scss */
+.see-all-projects:after {
+  position: absolute;
+  content: "";
+  background-image: url("../images/right.png");
+  width: 8px;
+  height: 13px;
+  right: -20px;
+}
 
-/* line 32, ../sass/_app-our-works.scss */
+/* line 46, ../sass/_app-our-works.scss */
 .our-works-list {
   margin-top: 157px;
   margin-bottom: 85px;
 }
-/* line 36, ../sass/_app-our-works.scss */
+/* line 50, ../sass/_app-our-works.scss */
 .our-works-list li {
   width: 267px;
   height: 200px;
@@ -683,20 +730,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* line 50, ../sass/_app-our-clients.scss */
 .our-clients li {
   flex-basis: 50%;
-}
-
-/* line 55, ../sass/_app-our-clients.scss */
-.news-form-button {
-  width: 135px;
-  height: 40px;
-  color: #00e0d0;
-  font-family: "Hammersmith One", sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  text-transform: uppercase;
-  text-align: center;
-  background: none;
-  border: 1px solid #00e0d0;
 }
 
 /* line 3, ../sass/_app-footer.scss */

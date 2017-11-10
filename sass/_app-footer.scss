@@ -6,7 +6,7 @@
   h2, p {
     color: #ffffff;
     font-family: $Roboto-font;
-    font-size: 14px;
+    font-size: $p-font-size;
     font-weight: 300;
     line-height: 26px;
     letter-spacing: 0.35px;
@@ -166,9 +166,9 @@
 .site-footer {
   margin-top: 200px;
   width: 100%;
-  color: #ffffff;
+  color: $light-font-color;
   font-family: $Roboto-font;
-  font-size: 14px;
+  font-size: $p-font-size;
   font-weight: 400;
   line-height: 26px;
   text-transform: uppercase;
@@ -176,7 +176,7 @@
 
   a{
     text-decoration: none;
-    color: #ffffff;
+    color: $light-font-color;
   }
 
   li:not(:last-child) {

@@ -2,15 +2,15 @@
 
 .big-image {
   width: auto;
-  min-height: 100vh;
+  min-height: $main-height;
 }
 
 .small-image {
-  width: 100%;
+  width: $main-width;
   height: 70vh;
 }
 
 .middle-image {
-  width: 100%;
+  width: $main-width;
   height: 85vh;
 }

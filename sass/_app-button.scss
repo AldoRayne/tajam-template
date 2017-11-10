@@ -42,11 +42,25 @@
     margin-top: 34px;
     margin-left: -25px;
     width: 156px;
-    color: #ffffff;
+    color: $light-font-color;
     font-family: $Roboto-font;
     font-size: 16px;
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 0.8px;
   }
+}
+
+.just-button {
+  width: 135px;
+  height: 40px;
+  color: $buttons-and-header-logo-color;
+  font-family: $Hammersmith-font;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  background: none;
+  border: 1px solid $buttons-and-header-logo-color;
+  cursor: pointer;
 }

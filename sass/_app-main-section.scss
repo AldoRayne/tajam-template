@@ -25,14 +25,14 @@
   background-image: $gradient;
   width: $main-width;
   min-height: $main-height;
-  opacity: 0.85;
+  opacity: $opacity;
 }
 
 .small-gradient:before {
   position: absolute;
   content: "";
   background-image: $gradient;
-  width: 100%;
+  width: $main-width;
   min-height: 100%;
-  opacity: 0.85;
+  opacity: $opacity;
 }

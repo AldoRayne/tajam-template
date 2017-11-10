@@ -10,7 +10,7 @@
     margin-top: 70px;
     color: #413d4b;
     font-family: $Playfair-font;
-    font-size: 22px;
+    font-size: $h2-font-size;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1.1px;
@@ -22,7 +22,7 @@
     opacity: 0.75;
     color: #2f2d35;
     font-family: $Playfair-font;
-    font-size: 14px;
+    font-size: $p-font-size;
     font-weight: 400;
     letter-spacing: 1.05px;
     padding-bottom: 18px;
@@ -58,8 +58,9 @@
       width: 212px;
       top: 117px;
       color: #413d4b;
-      font-size: 14px;
-      font-weight: 400;
+      font-family: $Roboto-font;
+      font-size: $p-font-size;
+      font-weight: 900;
       text-transform: uppercase;
       letter-spacing: 0.7px;
     }
@@ -70,25 +71,33 @@
       top: 152px;
       opacity: 0.75;
       color: #333333;
-      font-size: 14px;
+      font-size: $p-font-size;
       font-weight: 300;
       line-height: 22px;
-
+      font-family: $Roboto-font;
       letter-spacing: 0.7px;
     }
-
-    &:first-child {
-      border-right: 1px solid #a9a9a9;
-      border-bottom: 1px solid #a9a9a9;
-    }
-
-    &:nth-child(2) {
-      border-right: 1px solid #a9a9a9;
-      border-bottom: 1px solid #a9a9a9;
-    }
-
-    &:nth-child(3) {
-      border-bottom: 1px solid #a9a9a9;
-    }
   }
+}
+
+.first-row-left {
+  border-right: $list-border;
+}
+
+.first-row-middle {
+  border-right: $list-border;
+}
+
+.second-row-left {
+  border-top: $list-border;
+  border-right: $list-border;
+}
+
+.second-row-middle {
+  border-top: $list-border;
+  border-right: $list-border;
+}
+
+.second-row-right {
+  border-top: $list-border;
 }

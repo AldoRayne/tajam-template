@@ -2,11 +2,14 @@
 $main-width: 100%;
 $main-height: 100vh;
 $main-min-height: 475px;
+$h2-font-size: 22px;
+$p-font-size: 14px;
+$opacity: 0.85;
+
+//borders
+$list-border: 1px solid #a9a9a9;
 
 //flex
-$flex-display: flex;
-$between: space-between;
-$vertical-align: center;
 $small-basis: 40%;
 $fifty-basis: 50%;
 $high-basis: 60%;

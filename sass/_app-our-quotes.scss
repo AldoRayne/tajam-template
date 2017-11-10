@@ -7,8 +7,8 @@
   width: 770px;
   min-height: 165px;
   padding-top: 70px;
-  opacity: 0.85;
-  color: #ffffff;
+  opacity: $opacity;
+  color: $light-font-color;
   font-family: $Playfair-font;
   font-size: 16px;
   font-weight: 400;

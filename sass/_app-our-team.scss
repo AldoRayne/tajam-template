@@ -9,7 +9,7 @@
   h2 {
     margin-top: 70px;
     font-family: $Playfair-font;
-    font-size: 22px;
+    font-size: $h2-font-size;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1.1px;
@@ -22,7 +22,7 @@
     opacity: 0.75;
     color: #ffffff;
     font-family: $Playfair-font;
-    font-size: 14px;
+    font-size: $p-font-size;
     font-weight: 400;
     letter-spacing: 1.05px;
     padding-bottom: 18px;
@@ -33,8 +33,8 @@
       width: 50px;
       height: 1px;
       bottom: 0;
-
-      background-color: #ffffff;left: 0;
+      background-color: $light-font-color;
+      left: 0;
       right: 0;
       margin: 0 auto;
     }
@@ -54,11 +54,11 @@
 
 .name {
   margin: 15px auto 0;
-  width: 100%;
+  width: $main-width;
   height: 10px;
-  color: #ffffff;
+  color: $light-font-color;
   font-family: $Roboto-font;
-  font-size: 14px;
+  font-size: $p-font-size;
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 0.7px;
@@ -66,7 +66,7 @@
 
 .post {
   margin-top: 12px;
-  width: 100%;
+  width: $main-width;
   height: 9px;
   opacity: 0.7;
   color: #fafafa;
@@ -85,7 +85,7 @@
   height: 14px;
   color: #f3f3f3;
   font-family: $Roboto-font;
-  font-size: 14px;
+  font-size: $p-font-size;
   font-weight: 300;
   letter-spacing: 0.7px;
   margin-bottom: 26px;

@@ -11,21 +11,35 @@
     height: 16px;
     color: #413d4b;
     font-family: $Playfair-font;
-    font-size: 22px;
+    font-size: $h2-font-size;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1.1px;
   }
 
-  a {
-    width: 173px;
-    height: 14px;
-    color: #413d4b;
-    font-family: $Roboto-font;
-    font-size: 14px;
-    font-weight: 300;
-    letter-spacing: 0.7px;
-    text-decoration: none;
+  button {
+    margin-left: calc(50% - 67.5px);
+  }
+}
+
+.see-all-projects {
+  position: relative;
+  width: 173px;
+  height: 14px;
+  color: #413d4b;
+  font-family: $Roboto-font;
+  font-size: $p-font-size;
+  font-weight: 300;
+  letter-spacing: 0.7px;
+  text-decoration: none;
+
+  &:after {
+    position: absolute;
+    content: "";
+    background-image: url("../images/right.png");
+    width: 8px;
+    height: 13px;
+    right: -20px;
   }
 }
 
