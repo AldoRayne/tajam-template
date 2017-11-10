@@ -832,18 +832,24 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   text-transform: uppercase;
   letter-spacing: 0.75px;
 }
-/* line 77, ../sass/_app-footer.scss */
+/* line 75, ../sass/_app-footer.scss */
+.subscribe input {
+  padding: 5px;
+  box-sizing: border-box;
+  color: #ffffff;
+}
+/* line 80, ../sass/_app-footer.scss */
 .subscribe input::placeholder {
   text-align: center;
 }
-/* line 81, ../sass/_app-footer.scss */
+/* line 84, ../sass/_app-footer.scss */
 .subscribe input[type="email"] {
   background: none;
   width: 211px;
   height: 45px;
   border: 1px solid #ffffff;
 }
-/* line 88, ../sass/_app-footer.scss */
+/* line 91, ../sass/_app-footer.scss */
 .subscribe input[type="button"] {
   background: url("../images/mini-logo.png") #ffffff no-repeat center;
   opacity: 0.5;
@@ -852,22 +858,22 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   height: 45px;
   cursor: pointer;
 }
-/* line 98, ../sass/_app-footer.scss */
+/* line 101, ../sass/_app-footer.scss */
 .subscribe ul {
   margin-top: 30px;
 }
-/* line 101, ../sass/_app-footer.scss */
+/* line 104, ../sass/_app-footer.scss */
 .subscribe ul li {
   position: relative;
   width: 35px;
   height: 35px;
 }
-/* line 106, ../sass/_app-footer.scss */
+/* line 109, ../sass/_app-footer.scss */
 .subscribe ul li:not(:last-child) {
   margin-right: 8px;
 }
 
-/* line 113, ../sass/_app-footer.scss */
+/* line 116, ../sass/_app-footer.scss */
 .facebook:before {
   position: absolute;
   content: "";
@@ -881,7 +887,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin: auto;
 }
 
-/* line 126, ../sass/_app-footer.scss */
+/* line 129, ../sass/_app-footer.scss */
 .twitter:before {
   position: absolute;
   content: "";
@@ -895,7 +901,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin: auto;
 }
 
-/* line 139, ../sass/_app-footer.scss */
+/* line 142, ../sass/_app-footer.scss */
 .dribble:before {
   position: absolute;
   content: "";
@@ -909,7 +915,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin: auto;
 }
 
-/* line 152, ../sass/_app-footer.scss */
+/* line 155, ../sass/_app-footer.scss */
 .insta:before {
   position: absolute;
   content: "";
@@ -923,7 +929,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin: auto;
 }
 
-/* line 165, ../sass/_app-footer.scss */
+/* line 168, ../sass/_app-footer.scss */
 .google-plus:before {
   position: absolute;
   content: "";
@@ -937,7 +943,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin: auto;
 }
 
-/* line 178, ../sass/_app-footer.scss */
+/* line 181, ../sass/_app-footer.scss */
 .youtube:before {
   position: absolute;
   content: "";
@@ -951,7 +957,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin: auto;
 }
 
-/* line 191, ../sass/_app-footer.scss */
+/* line 194, ../sass/_app-footer.scss */
 .site-footer {
   margin-top: 200px;
   width: 100%;
@@ -963,12 +969,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   text-transform: uppercase;
   letter-spacing: 0.35px;
 }
-/* line 202, ../sass/_app-footer.scss */
+/* line 205, ../sass/_app-footer.scss */
 .site-footer a {
   text-decoration: none;
   color: #ffffff;
 }
-/* line 207, ../sass/_app-footer.scss */
+/* line 210, ../sass/_app-footer.scss */
 .site-footer li:not(:last-child) {
   margin-right: 30px;
 }
