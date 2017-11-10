@@ -4,7 +4,7 @@
   margin-top: 80px;
 
   h2, p {
-    color: #ffffff;
+    color: $light-font-color;
     font-family: $Roboto-font;
     font-size: $p-font-size;
     font-weight: 300;
@@ -19,6 +19,16 @@
 
 .our-contacts {
   width: 267px;
+
+  h2 {
+    color: $light-font-color;
+    font-family: $Roboto-font;
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 26px;
+    text-transform: uppercase;
+    letter-spacing: 0.75px;
+  }
 
   p {
     position: relative;
@@ -52,16 +62,31 @@
 .subscribe {
   width: 291px;
 
+  h2 {
+    color: $light-font-color;
+    font-family: $Roboto-font;
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 26px;
+    text-transform: uppercase;
+    letter-spacing: 0.75px;
+  }
+
   input {
+
+    &::placeholder {
+      text-align: center;
+    }
+
     &[type="email"] {
       background: none;
       width: 211px;
       height: 45px;
-      border: 1px solid #ffffff;
+      border: 1px solid $light-font-color;
     }
 
     &[type="button"] {
-      background: url("../images/mini-logo.png") #ffffff no-repeat center;
+      background: url("../images/mini-logo.png") $light-font-color no-repeat center;
       opacity: 0.5;
       border: none;
       width: 70px;
@@ -77,13 +102,13 @@
       position: relative;
       width: 35px;
       height: 35px;
-    }
-  }
 
-    li:not(:last-child) {
-      margin-right: 8px;
+      &:not(:last-child) {
+        margin-right: 8px;
+      }
     }
   }
+}
 
 .facebook:before {
   position: absolute;

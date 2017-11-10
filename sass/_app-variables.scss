@@ -15,11 +15,12 @@ $fifty-basis: 50%;
 $high-basis: 60%;
 
 //fonts
-$Hammersmith-font: "Hammersmith One", sans-serif;
-$Playfair-font: "Playfair Display", sans-serif;
-$Roboto-font: "Roboto", sans-serif;
+$Hammersmith-font: "Hammersmith One", "Arial", "Geneva", "Helvetica", sans-serif;
+$Playfair-font: "Playfair Display", "Geneva", "Helvetica", "Arial", sans-serif;
+$Roboto-font: "Roboto", "Helvetica", "Arial", "Geneva", sans-serif;
 
 //colors
 $buttons-and-header-logo-color: #00e0d0;
 $light-font-color: #ffffff;
+$purple: #413d4b;
 $gradient: linear-gradient(to right, #09052f 0%, #311d5e 100%);

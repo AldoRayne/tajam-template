@@ -3,7 +3,7 @@
 .our-clients, .news-form {
 
   h2 {
-    color: #413d4b;
+    color: $purple;
     font-family: $Playfair-font;
     font-size: 22px;
     font-weight: 700;
@@ -28,12 +28,32 @@
   input {
     width: 340px;
     height: 28px;
+    padding: 10px 21px;
+
+    &::placeholder {
+      opacity: 0.5;
+      color: $purple;
+      font-family: $Roboto-font;
+      font-size: $p-font-size;
+      font-weight: 300;
+      letter-spacing: 0.7px;
+    }
   }
 
   textarea {
     width: 340px;
     height: 200px;
     resize: none;
+    padding: 10px 21px;
+
+    &::placeholder {
+      opacity: 0.5;
+      color: $purple;
+      font-family: $Roboto-font;
+      font-size: $p-font-size;
+      font-weight: 300;
+      letter-spacing: 0.7px;
+    }
   }
 }
 
@@ -49,6 +69,10 @@
 
   li {
     flex-basis: $fifty-basis;
+
+    p{
+      text-align: center;
+    }
   }
 }
 
